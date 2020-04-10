@@ -7,21 +7,21 @@ public class PlayingWithPolynomial {
 
 
     public static void main(String[] args) {
-        Polynomial p = new Polynomial();
-        Polynomial q = new Polynomial();
-        p.set(1);
-        p.set(2, "x");
-        p.set(-3, "x", 2);
+        Polynomial.Builder pb = new Polynomial.Builder();
+        pb.set(1).set(2, "x").set(-3, "x", 2);
+        Polynomial p = pb.build();
 
-        q.set(2);
-        q.set(-1, "x");
+        Polynomial.Builder qb = new Polynomial.Builder();
+        qb.set(2).set(-1, "x");
+        Polynomial q = qb.build();
 
-      //  printPoly(p);
+
         System.out.println();
         printPoly(add(p, q));
+
     }
 
-    private static void printPoly(Polynomial p) {
+    public static void printPoly(Polynomial p) {
         Term p0 = p.getHead();
         StringBuilder termCom = new StringBuilder();
         while (p0 != null){
@@ -44,8 +44,8 @@ public class PlayingWithPolynomial {
         System.out.printf("%s", termCom.toString().substring(0, termCom.length() - 2));
     }
 
-    private static Polynomial add(Polynomial p, Polynomial q){
-        Polynomial r = new Polynomial();
+    public static Polynomial add(Polynomial p, Polynomial q){
+        Polynomial.Builder r = new Polynomial.Builder();
         Term p0 = p.getHead();
 
         while (p0 != null){
@@ -69,6 +69,6 @@ public class PlayingWithPolynomial {
             p0 = p0.getNex();
         }
 
-        return  r;
+        return  r.build();
     }
 }
