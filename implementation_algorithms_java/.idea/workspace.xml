@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6d2d65c7-bc32-4b8e-9cde-0f64ce1b7d79" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aEfZBzfjL5vWz1Y6VzoMDc7rRo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.com.fredymosquera.ds.linkedlist" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PlayingWithPolynomial">
+    <configuration name="PlayingWithPolynomial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.com.fredymosquera.ch1.PlayingWithPolynomial" />
+      <module name="implementation_algorithms_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.com.fredymosquera.ch1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReduceFractionLowestTerm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.com.fredymosquera.ch1.ReduceFractionLowestTerm" />
+      <module name="implementation_algorithms_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.com.fredymosquera.ch1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PlayingWithPolynomial" />
+        <item itemvalue="Application.ReduceFractionLowestTerm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6d2d65c7-bc32-4b8e-9cde-0f64ce1b7d79" name="Default Changelist" comment="" />
+      <created>1586305726826</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586305726826</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="773" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1586492465829">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="773" y="231" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1586492465829" />
+    <state width="410" height="466" key="DebuggerActiveHint" timestamp="1586495221888">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="410" height="466" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1586495221888" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1586495753918">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586495753918" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1586401464994" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1586495753916">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586495753916" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1586401464993" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1586495753915">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586495753915" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1586401464992" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1586495753917">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586495753917" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1586401464993" />
+    <state width="1878" height="189" key="GridCell.Tab.1.bottom" timestamp="1586495648935">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="189" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586495648935" />
+    <state width="1878" height="189" key="GridCell.Tab.1.center" timestamp="1586495648933">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="189" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586495648933" />
+    <state width="1878" height="189" key="GridCell.Tab.1.left" timestamp="1586495648933">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="189" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586495648933" />
+    <state width="1878" height="189" key="GridCell.Tab.1.right" timestamp="1586495648934">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="189" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586495648934" />
+    <state x="469" y="156" key="SettingsEditor" timestamp="1586496277958">
+      <screen x="0" y="23" width="1920" height="989" />
+    </state>
+    <state x="469" y="156" key="SettingsEditor/0.23.1920.989@0.23.1920.989" timestamp="1586496277958" />
+    <state x="653" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1586496303979">
+      <screen x="0" y="23" width="1920" height="989" />
+    </state>
+    <state x="653" y="350" key="com.intellij.ide.util.TipDialog/0.23.1920.989@0.23.1920.989" timestamp="1586496303979" />
+    <state x="698" y="300" key="extract.method.dialog" timestamp="1586493711115">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="698" y="300" key="extract.method.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586493711115" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/com/fredymosquera/ch1/ReduceFractionLowestTerm.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/com/fredymosquera/ch1/PlayingWithPolynomial.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
