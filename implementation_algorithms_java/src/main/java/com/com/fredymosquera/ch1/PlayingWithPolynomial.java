@@ -7,6 +7,7 @@ public class PlayingWithPolynomial {
 
 
     public static void main(String[] args) {
+        PlayingWithPolynomial playingWithPolynomial = new PlayingWithPolynomial();
         Polynomial.Builder pb = new Polynomial.Builder();
         pb.set(1).set(2, "x").set(-3, "x", 2);
         Polynomial p = pb.build();
@@ -15,13 +16,14 @@ public class PlayingWithPolynomial {
         qb.set(2).set(-1, "x");
         Polynomial q = qb.build();
 
-
-        System.out.println();
-        printPoly(add(p, q));
+        Polynomial resul = playingWithPolynomial.add(p, q);
+        String strPoly = playingWithPolynomial.getPolySting(resul);
+        System.out.println(strPoly);
 
     }
 
-    public static void printPoly(Polynomial p) {
+
+    public String getPolySting(Polynomial p) {
         Term p0 = p.getHead();
         StringBuilder termCom = new StringBuilder();
         while (p0 != null){
@@ -41,10 +43,10 @@ public class PlayingWithPolynomial {
             p0 = p0.getNex();
         }
 
-        System.out.printf("%s", termCom.toString().substring(0, termCom.length() - 2));
+        return termCom.toString().substring(0, termCom.length() - 2).trim();
     }
 
-    public static Polynomial add(Polynomial p, Polynomial q){
+    public Polynomial add(Polynomial p, Polynomial q){
         Polynomial.Builder r = new Polynomial.Builder();
         Term p0 = p.getHead();
 

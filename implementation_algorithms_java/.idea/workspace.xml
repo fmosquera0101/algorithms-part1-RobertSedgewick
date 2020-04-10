@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d2d65c7-bc32-4b8e-9cde-0f64ce1b7d79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/fredymosquera/ds/linkedlist/PolynomialOldVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/com/fredymosquera/ch1/PlayingWithPolynomialTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/com/fredymosquera/ch1/PlayingWithPolynomial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/fredymosquera/ch1/PlayingWithPolynomial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/fredymosquera/ds/linkedlist/Polynomial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/fredymosquera/ds/linkedlist/Polynomial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -40,15 +40,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.com.fredymosquera.ch1" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.com.fredymosquera.ds.linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PlayingWithPolynomial">
+  <component name="RunManager" selected="JUnit.PlayingWithPolynomialTest.add">
     <configuration name="PlayingWithPolynomial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.com.fredymosquera.ch1.PlayingWithPolynomial" />
       <module name="implementation_algorithms_java" />
@@ -75,8 +83,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlayingWithPolynomialTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="implementation_algorithms_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.com.fredymosquera.ch1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.com.fredymosquera.ch1" />
+      <option name="MAIN_CLASS_NAME" value="com.com.fredymosquera.ch1.PlayingWithPolynomialTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayingWithPolynomialTest.add" />
         <item itemvalue="Application.PlayingWithPolynomial" />
         <item itemvalue="Application.ReduceFractionLowestTerm" />
       </list>
@@ -96,6 +121,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="123" width="1720" height="789" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586537794325">
+      <screen x="0" y="23" width="1920" height="989" />
+    </state>
+    <state x="100" y="123" width="1720" height="789" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1920.989@0.23.1920.989" timestamp="1586537794325" />
     <state x="773" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1586492465829">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -109,46 +138,46 @@
     </state>
     <state width="410" height="466" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1586495221888" />
     <state width="410" height="427" key="DebuggerActiveHint/0.23.1920.989@0.23.1920.989" timestamp="1586536697735" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1586537039401">
+    <state width="1878" height="283" key="GridCell.Tab.0.bottom" timestamp="1586537797349">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state width="1878" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586536999079" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1586537039401" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1586537039399">
+    <state width="1878" height="283" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1586537797349" />
+    <state width="1878" height="283" key="GridCell.Tab.0.center" timestamp="1586537797348">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state width="1878" height="164" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586536999078" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1586537039399" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1586537039397">
+    <state width="1878" height="283" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1586537797348" />
+    <state width="1878" height="283" key="GridCell.Tab.0.left" timestamp="1586537797347">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state width="1878" height="164" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586536999077" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1586537039397" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1586537039400">
+    <state width="1878" height="283" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1586537797347" />
+    <state width="1878" height="283" key="GridCell.Tab.0.right" timestamp="1586537797349">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state width="1878" height="164" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586536999079" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1586537039400" />
-    <state width="1878" height="164" key="GridCell.Tab.1.bottom" timestamp="1586536999083">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="283" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1586537797349" />
+    <state width="1878" height="396" key="GridCell.Tab.1.bottom" timestamp="1586537711517">
+      <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state width="1878" height="164" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586536999083" />
-    <state width="1878" height="164" key="GridCell.Tab.1.bottom/0.23.1920.989@0.23.1920.989" timestamp="1586536676060" />
-    <state width="1878" height="164" key="GridCell.Tab.1.center" timestamp="1586536999081">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="396" key="GridCell.Tab.1.bottom/0.23.1920.989@0.23.1920.989" timestamp="1586537711517" />
+    <state width="1878" height="396" key="GridCell.Tab.1.center" timestamp="1586537711515">
+      <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state width="1878" height="164" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586536999081" />
-    <state width="1878" height="164" key="GridCell.Tab.1.center/0.23.1920.989@0.23.1920.989" timestamp="1586536676059" />
-    <state width="1878" height="164" key="GridCell.Tab.1.left" timestamp="1586536999080">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="396" key="GridCell.Tab.1.center/0.23.1920.989@0.23.1920.989" timestamp="1586537711515" />
+    <state width="1878" height="396" key="GridCell.Tab.1.left" timestamp="1586537711513">
+      <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state width="1878" height="164" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586536999080" />
-    <state width="1878" height="164" key="GridCell.Tab.1.left/0.23.1920.989@0.23.1920.989" timestamp="1586536676057" />
-    <state width="1878" height="164" key="GridCell.Tab.1.right" timestamp="1586536999082">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="396" key="GridCell.Tab.1.left/0.23.1920.989@0.23.1920.989" timestamp="1586537711513" />
+    <state width="1878" height="396" key="GridCell.Tab.1.right" timestamp="1586537711516">
+      <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state width="1878" height="164" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586536999082" />
-    <state width="1878" height="164" key="GridCell.Tab.1.right/0.23.1920.989@0.23.1920.989" timestamp="1586536676059" />
+    <state width="1878" height="396" key="GridCell.Tab.1.right/0.23.1920.989@0.23.1920.989" timestamp="1586537711516" />
     <state x="469" y="156" key="SettingsEditor" timestamp="1586496277958">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
@@ -157,10 +186,10 @@
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state x="653" y="350" key="com.intellij.ide.util.TipDialog/0.23.1920.989@0.23.1920.989" timestamp="1586496303979" />
-    <state x="731" y="251" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586537110250">
+    <state x="731" y="251" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586537196774">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
-    <state x="731" y="251" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1920.989@0.23.1920.989" timestamp="1586537110250" />
+    <state x="731" y="251" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1920.989@0.23.1920.989" timestamp="1586537196774" />
     <state x="698" y="300" key="extract.method.dialog" timestamp="1586493711115">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -177,6 +206,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/com/fredymosquera/ch1/ReduceFractionLowestTerm.java</url>
           <line>20</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/com/fredymosquera/ch1/PlayingWithPolynomialTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/com/fredymosquera/ch1/PlayingWithPolynomial.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
