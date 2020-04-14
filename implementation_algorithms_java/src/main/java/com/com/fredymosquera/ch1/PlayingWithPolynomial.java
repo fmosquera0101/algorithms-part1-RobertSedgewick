@@ -73,4 +73,53 @@ public class PlayingWithPolynomial {
 
         return  r.build();
     }
+
+    public Polynomial multiply(Polynomial p, Polynomial q) {
+        Polynomial.Builder r = new Polynomial.Builder();
+        Term p0 = p.getHead();
+        while (p0 != null){
+            int c = p0.getC();
+            String x = p0.getInc();
+            int j = p0.getJ();
+
+            Term q0 = q.getHead();
+            while (q0 != null){
+
+                int q0C = q0.getC();
+                String q0X = q0.getInc();
+                int q0J = q0.getJ();
+
+                int multC = c * q0C;
+                String multX;
+                int multJ = 0;
+                if(x == null && q0X == null){
+                    multX = null;
+                    multJ = 0;
+                    r.set(multC);
+
+                }else  if(x == null && q0X != null){
+                    multX = q0X;
+                    multJ = q0J;
+                    r.set(multC, multX);
+                } else  if(x != null && q0X == null){
+                    multX = x;
+                    multJ = j;
+                    r.set(multC, multX, multJ);
+                }else  if(x != null && q0X != null){
+                    multX = q0X;
+                    multJ = j + q0J;
+                    r.set(multC, multX, multJ);
+                }
+
+
+                q0 = q0.getNex();
+            }
+
+
+
+            p0 = p0.getNex();
+        }
+
+        return r.build();
+    }
 }
