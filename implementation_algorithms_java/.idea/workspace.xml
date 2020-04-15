@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d2d65c7-bc32-4b8e-9cde-0f64ce1b7d79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/fredymosquera/randomnumbers/Random.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/fredymosquera/part1/ExercisesCh1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,7 +46,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -57,7 +59,20 @@
       <recent name="com.com.fredymosquera.ds.linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Random">
+  <component name="RunManager" selected="Application.ExercisesCh1">
+    <configuration name="ExercisesCh1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.com.fredymosquera.part1.ExercisesCh1" />
+      <module name="implementation_algorithms_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.com.fredymosquera.part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlayingWithPolynomial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.com.fredymosquera.ch1.PlayingWithPolynomial" />
       <module name="implementation_algorithms_java" />
@@ -77,19 +92,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.com.fredymosquera.randomnumbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReduceFractionLowestTerm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.com.fredymosquera.ch1.ReduceFractionLowestTerm" />
-      <module name="implementation_algorithms_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.com.fredymosquera.ch1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExercisesCh1" />
         <item itemvalue="Application.Random" />
         <item itemvalue="JUnit.PlayingWithPolynomialTest.multiply" />
         <item itemvalue="Application.PlayingWithPolynomial" />
         <item itemvalue="JUnit.PlayingWithPolynomialTest.add" />
-        <item itemvalue="Application.ReduceFractionLowestTerm" />
       </list>
     </recent_temporary>
   </component>
@@ -170,53 +172,55 @@
     </state>
     <state width="410" height="466" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1586495221888" />
     <state width="410" height="427" key="DebuggerActiveHint/0.23.1920.989@0.23.1920.989" timestamp="1586536697735" />
-    <state width="1878" height="216" key="GridCell.Tab.0.bottom" timestamp="1586834244755">
+    <state width="1878" height="216" key="GridCell.Tab.0.bottom" timestamp="1586915902730">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586834244755" />
+    <state width="1878" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586915902730" />
     <state width="1878" height="216" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1586830075227" />
-    <state width="1878" height="216" key="GridCell.Tab.0.center" timestamp="1586834244754">
+    <state width="1878" height="216" key="GridCell.Tab.0.center" timestamp="1586915902727">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586834244754" />
+    <state width="1878" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586915902727" />
     <state width="1878" height="216" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1586830075225" />
-    <state width="1878" height="216" key="GridCell.Tab.0.left" timestamp="1586834244753">
+    <state width="1878" height="216" key="GridCell.Tab.0.left" timestamp="1586915902725">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586834244753" />
+    <state width="1878" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586915902725" />
     <state width="1878" height="216" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1586830075224" />
-    <state width="1878" height="216" key="GridCell.Tab.0.right" timestamp="1586834244754">
+    <state width="1878" height="216" key="GridCell.Tab.0.right" timestamp="1586915902728">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586834244754" />
+    <state width="1878" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586915902728" />
     <state width="1878" height="216" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1586830075226" />
-    <state width="1878" height="396" key="GridCell.Tab.1.bottom" timestamp="1586559598357">
-      <screen x="0" y="23" width="1920" height="989" />
+    <state width="1878" height="269" key="GridCell.Tab.1.bottom" timestamp="1586914596675">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="164" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586536999083" />
+    <state width="1878" height="269" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586914596675" />
     <state width="1878" height="396" key="GridCell.Tab.1.bottom/0.23.1920.989@0.23.1920.989" timestamp="1586559598357" />
-    <state width="1878" height="396" key="GridCell.Tab.1.center" timestamp="1586559598356">
-      <screen x="0" y="23" width="1920" height="989" />
+    <state width="1878" height="269" key="GridCell.Tab.1.center" timestamp="1586914596673">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="164" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586536999081" />
+    <state width="1878" height="269" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586914596673" />
     <state width="1878" height="396" key="GridCell.Tab.1.center/0.23.1920.989@0.23.1920.989" timestamp="1586559598356" />
-    <state width="1878" height="396" key="GridCell.Tab.1.left" timestamp="1586559598355">
-      <screen x="0" y="23" width="1920" height="989" />
+    <state width="1878" height="269" key="GridCell.Tab.1.left" timestamp="1586914596672">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="164" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586536999080" />
+    <state width="1878" height="269" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586914596672" />
     <state width="1878" height="396" key="GridCell.Tab.1.left/0.23.1920.989@0.23.1920.989" timestamp="1586559598355" />
-    <state width="1878" height="396" key="GridCell.Tab.1.right" timestamp="1586559598356">
-      <screen x="0" y="23" width="1920" height="989" />
+    <state width="1878" height="269" key="GridCell.Tab.1.right" timestamp="1586914596674">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="164" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586536999082" />
+    <state width="1878" height="269" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586914596674" />
     <state width="1878" height="396" key="GridCell.Tab.1.right/0.23.1920.989@0.23.1920.989" timestamp="1586559598356" />
-    <state x="469" y="156" key="SettingsEditor" timestamp="1586496277958">
-      <screen x="0" y="23" width="1920" height="989" />
+    <state x="469" y="145" key="SettingsEditor" timestamp="1586913387694">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="469" y="145" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586913387694" />
     <state x="469" y="156" key="SettingsEditor/0.23.1920.989@0.23.1920.989" timestamp="1586496277958" />
-    <state x="653" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1586496303979">
-      <screen x="0" y="23" width="1920" height="989" />
+    <state x="653" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1586912305824">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="653" y="357" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586912305824" />
     <state x="653" y="350" key="com.intellij.ide.util.TipDialog/0.23.1920.989@0.23.1920.989" timestamp="1586496303979" />
     <state x="731" y="251" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586537196774">
       <screen x="0" y="23" width="1920" height="989" />
