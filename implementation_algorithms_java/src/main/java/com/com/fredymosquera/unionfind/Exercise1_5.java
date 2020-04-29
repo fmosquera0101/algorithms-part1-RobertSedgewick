@@ -18,7 +18,13 @@ public class Exercise1_5 {
         unionFind.union(0, 3);
         unionFind.union(4, 2);
 
-        System.out.println(Arrays.toString(unionFind.getId()));
+        int[] id =  unionFind.getId();
+        System.out.println(Arrays.toString(id));
+
+        for (int i = 0; i < id.length; i++) {
+            System.out.print(id[i]+" -> "+i+", ");
+        }
+        System.out.println();
 
         QuickUnionUF quickUnionUF = new QuickUnionUF(10);
         quickUnionUF.union(9, 0);

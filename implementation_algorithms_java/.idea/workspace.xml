@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d2d65c7-bc32-4b8e-9cde-0f64ce1b7d79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/fredymosquera/unionfind/Exercise1_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/fredymosquera/unionfind/UnionFind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/fredymosquera/part1/CircularStringRotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/fredymosquera/part1/ExercisesCh1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/fredymosquera/part1/ExercisesCh1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/com/fredymosquera/unionfind/Exercise1_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/com/fredymosquera/unionfind/Exercise1_5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,20 @@
       <recent name="com.com.fredymosquera.ds.linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercise1_5">
+  <component name="RunManager" selected="Application.CircularStringRotation">
+    <configuration name="CircularStringRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.com.fredymosquera.part1.CircularStringRotation" />
+      <module name="implementation_algorithms_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.com.fredymosquera.part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Exercise1_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.com.fredymosquera.unionfind.Exercise1_5" />
       <module name="implementation_algorithms_java" />
@@ -85,19 +96,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.com.fredymosquera.part1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlayingWithPolynomial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.com.fredymosquera.ch1.PlayingWithPolynomial" />
-      <module name="implementation_algorithms_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.com.fredymosquera.ch1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CircularStringRotation" />
         <item itemvalue="Application.Exercise1_5" />
         <item itemvalue="Application.ExercisesCh1" />
         <item itemvalue="Application.Random" />
         <item itemvalue="JUnit.PlayingWithPolynomialTest.multiply" />
-        <item itemvalue="Application.PlayingWithPolynomial" />
       </list>
     </recent_temporary>
   </component>
@@ -174,50 +172,54 @@
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state x="698" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.989@0.23.1920.989" timestamp="1586536820526" />
+    <state x="723" y="250" key="#xdebugger.evaluate" timestamp="1588131299231">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="723" y="250" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1588131299231" />
     <state width="410" height="427" key="DebuggerActiveHint" timestamp="1586536697735">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state width="410" height="466" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1586495221888" />
     <state width="410" height="427" key="DebuggerActiveHint/0.23.1920.989@0.23.1920.989" timestamp="1586536697735" />
-    <state width="1878" height="269" key="GridCell.Tab.0.bottom" timestamp="1588042256637">
+    <state width="1878" height="269" key="GridCell.Tab.0.bottom" timestamp="1588131488805">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588042256637" />
+    <state width="1878" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588131488805" />
     <state width="1878" height="216" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1586830075227" />
-    <state width="1878" height="269" key="GridCell.Tab.0.center" timestamp="1588042256635">
+    <state width="1878" height="269" key="GridCell.Tab.0.center" timestamp="1588131488800">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588042256635" />
+    <state width="1878" height="269" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588131488800" />
     <state width="1878" height="216" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1586830075225" />
-    <state width="1878" height="269" key="GridCell.Tab.0.left" timestamp="1588042256633">
+    <state width="1878" height="269" key="GridCell.Tab.0.left" timestamp="1588131488797">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588042256633" />
+    <state width="1878" height="269" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588131488797" />
     <state width="1878" height="216" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1586830075224" />
-    <state width="1878" height="269" key="GridCell.Tab.0.right" timestamp="1588042256636">
+    <state width="1878" height="269" key="GridCell.Tab.0.right" timestamp="1588131488801">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588042256636" />
+    <state width="1878" height="269" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588131488801" />
     <state width="1878" height="216" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1586830075226" />
-    <state width="1878" height="269" key="GridCell.Tab.1.bottom" timestamp="1588042256264">
+    <state width="1878" height="269" key="GridCell.Tab.1.bottom" timestamp="1588131489129">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588042256264" />
+    <state width="1878" height="269" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588131489129" />
     <state width="1878" height="396" key="GridCell.Tab.1.bottom/0.23.1920.989@0.23.1920.989" timestamp="1586559598357" />
-    <state width="1878" height="269" key="GridCell.Tab.1.center" timestamp="1588042256260">
+    <state width="1878" height="269" key="GridCell.Tab.1.center" timestamp="1588131489127">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588042256260" />
+    <state width="1878" height="269" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588131489127" />
     <state width="1878" height="396" key="GridCell.Tab.1.center/0.23.1920.989@0.23.1920.989" timestamp="1586559598356" />
-    <state width="1878" height="269" key="GridCell.Tab.1.left" timestamp="1588042256250">
+    <state width="1878" height="269" key="GridCell.Tab.1.left" timestamp="1588131489126">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588042256250" />
+    <state width="1878" height="269" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588131489126" />
     <state width="1878" height="396" key="GridCell.Tab.1.left/0.23.1920.989@0.23.1920.989" timestamp="1586559598355" />
-    <state width="1878" height="269" key="GridCell.Tab.1.right" timestamp="1588042256262">
+    <state width="1878" height="269" key="GridCell.Tab.1.right" timestamp="1588131489128">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588042256262" />
+    <state width="1878" height="269" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588131489128" />
     <state width="1878" height="396" key="GridCell.Tab.1.right/0.23.1920.989@0.23.1920.989" timestamp="1586559598356" />
     <state x="469" y="145" key="SettingsEditor" timestamp="1587697990009">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -237,9 +239,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="698" y="300" key="extract.method.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586493711115" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1586537095794">
-      <screen x="0" y="23" width="1920" height="989" />
+    <state x="625" y="238" width="670" height="739" key="search.everywhere.popup" timestamp="1588131005357">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="625" y="238" width="670" height="739" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1588131005357" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.23.1920.989@0.23.1920.989" timestamp="1586537095794" />
   </component>
   <component name="XDebuggerManager">
@@ -259,6 +262,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/com/fredymosquera/ch1/PlayingWithPolynomial.java</url>
           <line>49</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/com/fredymosquera/unionfind/UnionFind.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/com/fredymosquera/part1/CircularStringRotation.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
