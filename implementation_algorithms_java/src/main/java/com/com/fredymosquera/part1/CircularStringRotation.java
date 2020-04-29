@@ -9,6 +9,10 @@ public class CircularStringRotation {
     }
     public static boolean isCircularShifted(String s, String t){
 
+        if(s.equals(t)){
+            return true;
+        }
+
         if(s.length() == t.length()){
             int idx = -1;
             for (int i = 0; i < s.length() ; i++) {
