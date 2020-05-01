@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d2d65c7-bc32-4b8e-9cde-0f64ce1b7d79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/com/fredymosquera/part1/DijkstraTwoStackExpressionEvaluation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,9 +62,22 @@
       <recent name="com.com.fredymosquera.ds.linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MysteryString">
+  <component name="RunManager" selected="Application.DijkstraTwoStackExpressionEvaluation">
     <configuration name="CircularStringRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.com.fredymosquera.part1.CircularStringRotation" />
+      <module name="implementation_algorithms_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.com.fredymosquera.part1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DijkstraTwoStackExpressionEvaluation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.com.fredymosquera.part1.DijkstraTwoStackExpressionEvaluation" />
       <module name="implementation_algorithms_java" />
       <extension name="coverage">
         <pattern>
@@ -114,26 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Random" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.com.fredymosquera.randomnumbers.Random" />
-      <module name="implementation_algorithms_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.com.fredymosquera.randomnumbers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DijkstraTwoStackExpressionEvaluation" />
         <item itemvalue="Application.MysteryString" />
         <item itemvalue="Application.CircularStringRotation" />
         <item itemvalue="Application.Exercise1_5" />
         <item itemvalue="Application.ExercisesCh1" />
-        <item itemvalue="Application.Random" />
       </list>
     </recent_temporary>
   </component>
@@ -176,25 +177,25 @@
     </state>
     <state width="410" height="466" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1586495221888" />
     <state width="410" height="427" key="DebuggerActiveHint/0.23.1920.989@0.23.1920.989" timestamp="1586536697735" />
-    <state width="1878" height="269" key="GridCell.Tab.0.bottom" timestamp="1588132943736">
+    <state width="1878" height="216" key="GridCell.Tab.0.bottom" timestamp="1588306122015">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588132943736" />
+    <state width="1878" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1588306122015" />
     <state width="1878" height="216" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1586830075227" />
-    <state width="1878" height="269" key="GridCell.Tab.0.center" timestamp="1588132943734">
+    <state width="1878" height="216" key="GridCell.Tab.0.center" timestamp="1588306122010">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588132943734" />
+    <state width="1878" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1588306122010" />
     <state width="1878" height="216" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1586830075225" />
-    <state width="1878" height="269" key="GridCell.Tab.0.left" timestamp="1588132943734">
+    <state width="1878" height="216" key="GridCell.Tab.0.left" timestamp="1588306122002">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588132943734" />
+    <state width="1878" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1588306122002" />
     <state width="1878" height="216" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1586830075224" />
-    <state width="1878" height="269" key="GridCell.Tab.0.right" timestamp="1588132943735">
+    <state width="1878" height="216" key="GridCell.Tab.0.right" timestamp="1588306122013">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="269" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588132943735" />
+    <state width="1878" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1588306122013" />
     <state width="1878" height="216" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1586830075226" />
     <state width="1878" height="269" key="GridCell.Tab.1.bottom" timestamp="1588132943738">
       <screen x="0" y="0" width="1920" height="1080" />
